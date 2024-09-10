@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="login.php" method="post">
+
+        Nombre de usuario
+        <input type="text" name="name" id="name" minlength="5" maxlength="20" required>
+
+        Correo
+        <input type="email" name="mail" id="mail" minlength="10" maxlength="50" required>
+
+        Clave
+        <input type="password" name="password" id="password" minlength="8" maxlength="13" required>
+
+        Repetir clave
+        <input type="password" name="password2" id="password2" minlength="8" maxlength="13" required>
+
+
+        <button type="submit">Enviar</button>   
+    </form>
+</body>
+</html>
