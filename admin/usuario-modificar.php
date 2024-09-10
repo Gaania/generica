@@ -52,7 +52,6 @@ $res = mysqli_query($conectar, $sql);
 
         <button type="submit">Actualizar</button>
     </form>
-    <a href="">Eliminar usuario</a>
 </body>
 </html>
 

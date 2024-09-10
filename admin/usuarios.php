@@ -29,6 +29,7 @@ $res = mysqli_query($conectar, $sql);
             <th>Correo</th>
             <th>Tipo de usuario</th>
             <th>Modificar</th>
+            <th>Eliminar</th>
         </tr>
         </thead>
         <tbody>
@@ -46,6 +47,7 @@ $res = mysqli_query($conectar, $sql);
                 <td>'.$mail.'</td>
                 <td>'.$type.'</td>
                 <td><a href="usuario-modificar.php?id='.$id.'&name='.$name.'&mail='.$mail.'&password='.$password.'">/</a></td>
+                <td><a href="./back/usuario-eliminar.php?id='.$id.'">X</a></td>
                 </tr>';
                 
             }

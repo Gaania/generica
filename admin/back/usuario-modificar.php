@@ -71,7 +71,7 @@ if (isset($_POST['id'])){
     WHERE UsuarioID='$id'";
     $res = mysqli_query($conectar, $update);
     if($res){
-        echo '<script>alert("EXITO AL ACTUALIZAR");window.location="./../index.php";</script>';
+        echo '<script>alert("EXITO AL ACTUALIZAR");window.location="./../usuarios.php";</script>';
         exit();
     }else{
         echo '<script>alert("ERROR: No se actualizó");history.go(-1);</script>';
