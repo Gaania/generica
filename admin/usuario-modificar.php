@@ -37,7 +37,7 @@ $res = mysqli_query($conectar, $sql);
         <input type="mail" value="'.$mail.'" name="mail" id="mail" minlength="10" maxlength="50" required>
 
         Contraseña
-        <input type="text" value="'.$password.'" name="mail" id="mail" minlength="8" maxlength="13" required>
+        <input type="text" value="'.$password.'" name="password" id="password" minlength="8" maxlength="13" required>
         
         Tipo de usuario
         <select name="type" id="type">
@@ -52,6 +52,7 @@ $res = mysqli_query($conectar, $sql);
 
         <button type="submit">Actualizar</button>
     </form>
+    <a href="">Eliminar usuario</a>
 </body>
 </html>
 
