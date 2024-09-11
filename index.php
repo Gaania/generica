@@ -18,5 +18,6 @@ if(!isset($_SESSION["ID"])){
 <a href="./login.html">Iniciar Sesion</a>
 <a href="./signup.html">Crear cuenta</a>
 <a href="./cerrarsesion.php">Cerrar sesión</a>
+<script src="./funciones.js"></script>
 </body>
 </html>

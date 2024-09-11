@@ -21,6 +21,7 @@ $res = mysqli_query($conectar, $sql);
     <title></title>
 </head>
 <body>
+    <a href="./usuario-agregar.php">Añadir</a>
     <table>
         <thead>
         <tr>
@@ -46,7 +47,7 @@ $res = mysqli_query($conectar, $sql);
                 <td>'.$name.'</td>
                 <td>'.$mail.'</td>
                 <td>'.$type.'</td>
-                <td><a href="usuario-modificar.php?id='.$id.'&name='.$name.'&mail='.$mail.'&password='.$password.'">/</a></td>
+                <td><a href="./usuario-modificar.php?id='.$id.'&name='.$name.'&mail='.$mail.'&password='.$password.'">/</a></td>
                 <td><a href="./back/usuario-eliminar.php?id='.$id.'">X</a></td>
                 </tr>';
                 
