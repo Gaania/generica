@@ -10,7 +10,7 @@ function limitarCaracteres(tipo){
         TEXT: "",
     }
 
-    //comparar los casos al tipo específico que tengo y aplicar restricción
+    //comparar los casos al tipo específico que tengo y aplicar restricción uy
 
     /*
     let cantidad = casos.length
